@@ -7,9 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B46F4CA91E88FBBF004863E5 /* YEWebStyleOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CA71E88FBBF004863E5 /* YEWebStyleOne.storyboard */; };
+		B46F4CAB1E88FBDD004863E5 /* YEWebStyleTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CAA1E88FBDD004863E5 /* YEWebStyleTwo.storyboard */; };
+		B46F4CAE1E88FC02004863E5 /* YEWebStyleThree.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CAC1E88FC02004863E5 /* YEWebStyleThree.storyboard */; };
+		B46F4CB01E88FC39004863E5 /* YEWebStyleFour.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CAF1E88FC39004863E5 /* YEWebStyleFour.storyboard */; };
+		B46F4CB31E88FD64004863E5 /* YEWebViewStyleOneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CB21E88FD64004863E5 /* YEWebViewStyleOneVC.m */; };
+		B46F4CB61E890205004863E5 /* YEWebViewStyleTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CB51E890205004863E5 /* YEWebViewStyleTwoVC.m */; };
+		B46F4CB91E89025E004863E5 /* YEWebViewStyleThreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CB81E89025E004863E5 /* YEWebViewStyleThreeVC.m */; };
+		B46F4CBC1E890276004863E5 /* YEWKWebViewStyleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CBB1E890276004863E5 /* YEWKWebViewStyleVC.m */; };
+		B46F4CCD1E890923004863E5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CC21E890923004863E5 /* LICENSE */; };
+		B46F4CCE1E890923004863E5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CC31E890923004863E5 /* README.md */; };
+		B46F4CCF1E890923004863E5 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CC61E890923004863E5 /* WebViewJavascriptBridge.m */; };
+		B46F4CD01E890923004863E5 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CC81E890923004863E5 /* WebViewJavascriptBridge_JS.m */; };
+		B46F4CD11E890923004863E5 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CCA1E890923004863E5 /* WebViewJavascriptBridgeBase.m */; };
+		B46F4CD21E890923004863E5 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CCC1E890923004863E5 /* WKWebViewJavascriptBridge.m */; };
+		B46F4CD51E8909B6004863E5 /* test_03.html in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CD41E8909B6004863E5 /* test_03.html */; };
+		B46F4CD91E890C31004863E5 /* test_02_02.html in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CD71E890C31004863E5 /* test_02_02.html */; };
+		B46F4CDA1E890C31004863E5 /* test_02_01.html in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CD81E890C31004863E5 /* test_02_01.html */; };
+		B46F4CDD1E890CA8004863E5 /* YEJS_OCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CDC1E890CA8004863E5 /* YEJS_OCModel.m */; };
+		B46F4CE01E891329004863E5 /* test_04.html in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CDF1E891329004863E5 /* test_04.html */; };
 		B48506791E88C44A003C3BBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B48506781E88C44A003C3BBD /* main.m */; };
 		B485067C1E88C44A003C3BBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B485067B1E88C44A003C3BBD /* AppDelegate.m */; };
-		B485067F1E88C44A003C3BBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B485067E1E88C44A003C3BBD /* ViewController.m */; };
 		B48506821E88C44A003C3BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48506801E88C44A003C3BBD /* Main.storyboard */; };
 		B48506851E88C44A003C3BBD /* YEWebView_H5_OC_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B48506831E88C44A003C3BBD /* YEWebView_H5_OC_.xcdatamodeld */; };
 		B48506871E88C44B003C3BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48506861E88C44B003C3BBD /* Assets.xcassets */; };
@@ -36,12 +54,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B46F4CA81E88FBBF004863E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/YEWebStyleOne.storyboard; sourceTree = "<group>"; };
+		B46F4CAA1E88FBDD004863E5 /* YEWebStyleTwo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = YEWebStyleTwo.storyboard; path = ../YEWebStyleTwo.storyboard; sourceTree = "<group>"; };
+		B46F4CAD1E88FC02004863E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/YEWebStyleThree.storyboard; sourceTree = "<group>"; };
+		B46F4CAF1E88FC39004863E5 /* YEWebStyleFour.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = YEWebStyleFour.storyboard; path = ../YEWebStyleFour.storyboard; sourceTree = "<group>"; };
+		B46F4CB11E88FD64004863E5 /* YEWebViewStyleOneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YEWebViewStyleOneVC.h; path = ../YEWebViewStyleOneVC.h; sourceTree = "<group>"; };
+		B46F4CB21E88FD64004863E5 /* YEWebViewStyleOneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YEWebViewStyleOneVC.m; path = ../YEWebViewStyleOneVC.m; sourceTree = "<group>"; };
+		B46F4CB41E890205004863E5 /* YEWebViewStyleTwoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YEWebViewStyleTwoVC.h; path = ../YEWebViewStyleTwoVC.h; sourceTree = "<group>"; };
+		B46F4CB51E890205004863E5 /* YEWebViewStyleTwoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YEWebViewStyleTwoVC.m; path = ../YEWebViewStyleTwoVC.m; sourceTree = "<group>"; };
+		B46F4CB71E89025E004863E5 /* YEWebViewStyleThreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YEWebViewStyleThreeVC.h; path = ../YEWebViewStyleThreeVC.h; sourceTree = "<group>"; };
+		B46F4CB81E89025E004863E5 /* YEWebViewStyleThreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YEWebViewStyleThreeVC.m; path = ../YEWebViewStyleThreeVC.m; sourceTree = "<group>"; };
+		B46F4CBA1E890276004863E5 /* YEWKWebViewStyleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YEWKWebViewStyleVC.h; path = ../YEWKWebViewStyleVC.h; sourceTree = "<group>"; };
+		B46F4CBB1E890276004863E5 /* YEWKWebViewStyleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YEWKWebViewStyleVC.m; path = ../YEWKWebViewStyleVC.m; sourceTree = "<group>"; };
+		B46F4CC21E890923004863E5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B46F4CC31E890923004863E5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B46F4CC51E890923004863E5 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		B46F4CC61E890923004863E5 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		B46F4CC71E890923004863E5 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		B46F4CC81E890923004863E5 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		B46F4CC91E890923004863E5 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		B46F4CCA1E890923004863E5 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		B46F4CCB1E890923004863E5 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		B46F4CCC1E890923004863E5 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		B46F4CD41E8909B6004863E5 /* test_03.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test_03.html; sourceTree = "<group>"; };
+		B46F4CD71E890C31004863E5 /* test_02_02.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test_02_02.html; sourceTree = "<group>"; };
+		B46F4CD81E890C31004863E5 /* test_02_01.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test_02_01.html; sourceTree = "<group>"; };
+		B46F4CDB1E890CA8004863E5 /* YEJS_OCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YEJS_OCModel.h; sourceTree = "<group>"; };
+		B46F4CDC1E890CA8004863E5 /* YEJS_OCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YEJS_OCModel.m; sourceTree = "<group>"; };
+		B46F4CDF1E891329004863E5 /* test_04.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test_04.html; sourceTree = "<group>"; };
 		B48506741E88C44A003C3BBD /* YEWebView(H5_OC).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YEWebView(H5_OC).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48506781E88C44A003C3BBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B485067A1E88C44A003C3BBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B485067B1E88C44A003C3BBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B485067D1E88C44A003C3BBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B485067E1E88C44A003C3BBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B48506811E88C44A003C3BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B48506841E88C44A003C3BBD /* YEWebView_H5_OC_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YEWebView_H5_OC_.xcdatamodel; sourceTree = "<group>"; };
 		B48506861E88C44B003C3BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +124,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B46F4CBD1E89061D004863E5 /* UIWebView方式二 */ = {
+			isa = PBXGroup;
+			children = (
+				B46F4CD61E890BC6004863E5 /* Resource_02 */,
+				B46F4CAA1E88FBDD004863E5 /* YEWebStyleTwo.storyboard */,
+				B46F4CB41E890205004863E5 /* YEWebViewStyleTwoVC.h */,
+				B46F4CB51E890205004863E5 /* YEWebViewStyleTwoVC.m */,
+				B46F4CDB1E890CA8004863E5 /* YEJS_OCModel.h */,
+				B46F4CDC1E890CA8004863E5 /* YEJS_OCModel.m */,
+			);
+			path = "UIWebView方式二";
+			sourceTree = "<group>";
+		};
+		B46F4CBE1E89061D004863E5 /* UIWebView方式三 */ = {
+			isa = PBXGroup;
+			children = (
+				B46F4CD31E89097A004863E5 /* Resource_03 */,
+				B46F4CAC1E88FC02004863E5 /* YEWebStyleThree.storyboard */,
+				B46F4CB71E89025E004863E5 /* YEWebViewStyleThreeVC.h */,
+				B46F4CB81E89025E004863E5 /* YEWebViewStyleThreeVC.m */,
+			);
+			path = "UIWebView方式三";
+			sourceTree = "<group>";
+		};
+		B46F4CBF1E89061D004863E5 /* UIWebView方式一 */ = {
+			isa = PBXGroup;
+			children = (
+				B46F4CE11E89135D004863E5 /* Resource_01 */,
+				B46F4CA71E88FBBF004863E5 /* YEWebStyleOne.storyboard */,
+				B46F4CB11E88FD64004863E5 /* YEWebViewStyleOneVC.h */,
+				B46F4CB21E88FD64004863E5 /* YEWebViewStyleOneVC.m */,
+			);
+			path = "UIWebView方式一";
+			sourceTree = "<group>";
+		};
+		B46F4CC01E89061D004863E5 /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				B46F4CDE1E891329004863E5 /* Resource_04 */,
+				B46F4CAF1E88FC39004863E5 /* YEWebStyleFour.storyboard */,
+				B46F4CBA1E890276004863E5 /* YEWKWebViewStyleVC.h */,
+				B46F4CBB1E890276004863E5 /* YEWKWebViewStyleVC.m */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
+		B46F4CC11E890923004863E5 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				B46F4CC21E890923004863E5 /* LICENSE */,
+				B46F4CC31E890923004863E5 /* README.md */,
+				B46F4CC41E890923004863E5 /* WebViewJavascriptBridge */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		B46F4CC41E890923004863E5 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				B46F4CC51E890923004863E5 /* WebViewJavascriptBridge.h */,
+				B46F4CC61E890923004863E5 /* WebViewJavascriptBridge.m */,
+				B46F4CC71E890923004863E5 /* WebViewJavascriptBridge_JS.h */,
+				B46F4CC81E890923004863E5 /* WebViewJavascriptBridge_JS.m */,
+				B46F4CC91E890923004863E5 /* WebViewJavascriptBridgeBase.h */,
+				B46F4CCA1E890923004863E5 /* WebViewJavascriptBridgeBase.m */,
+				B46F4CCB1E890923004863E5 /* WKWebViewJavascriptBridge.h */,
+				B46F4CCC1E890923004863E5 /* WKWebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		B46F4CD31E89097A004863E5 /* Resource_03 */ = {
+			isa = PBXGroup;
+			children = (
+				B46F4CD41E8909B6004863E5 /* test_03.html */,
+			);
+			path = Resource_03;
+			sourceTree = "<group>";
+		};
+		B46F4CD61E890BC6004863E5 /* Resource_02 */ = {
+			isa = PBXGroup;
+			children = (
+				B46F4CD71E890C31004863E5 /* test_02_02.html */,
+				B46F4CD81E890C31004863E5 /* test_02_01.html */,
+			);
+			path = Resource_02;
+			sourceTree = "<group>";
+		};
+		B46F4CDE1E891329004863E5 /* Resource_04 */ = {
+			isa = PBXGroup;
+			children = (
+				B46F4CDF1E891329004863E5 /* test_04.html */,
+			);
+			path = Resource_04;
+			sourceTree = "<group>";
+		};
+		B46F4CE11E89135D004863E5 /* Resource_01 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource_01;
+			sourceTree = "<group>";
+		};
 		B485066B1E88C44A003C3BBD = {
 			isa = PBXGroup;
 			children = (
@@ -105,9 +252,11 @@
 			children = (
 				B485067A1E88C44A003C3BBD /* AppDelegate.h */,
 				B485067B1E88C44A003C3BBD /* AppDelegate.m */,
-				B485067D1E88C44A003C3BBD /* ViewController.h */,
-				B485067E1E88C44A003C3BBD /* ViewController.m */,
 				B48506801E88C44A003C3BBD /* Main.storyboard */,
+				B46F4CBF1E89061D004863E5 /* UIWebView方式一 */,
+				B46F4CBD1E89061D004863E5 /* UIWebView方式二 */,
+				B46F4CBE1E89061D004863E5 /* UIWebView方式三 */,
+				B46F4CC01E89061D004863E5 /* WKWebView */,
 				B48506861E88C44B003C3BBD /* Assets.xcassets */,
 				B48506881E88C44B003C3BBD /* LaunchScreen.storyboard */,
 				B485068B1E88C44B003C3BBD /* Info.plist */,
@@ -120,6 +269,7 @@
 		B48506771E88C44A003C3BBD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B46F4CC11E890923004863E5 /* WebViewJavascriptBridge */,
 				B48506781E88C44A003C3BBD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -249,8 +399,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46F4CAE1E88FC02004863E5 /* YEWebStyleThree.storyboard in Resources */,
 				B485068A1E88C44B003C3BBD /* LaunchScreen.storyboard in Resources */,
+				B46F4CDA1E890C31004863E5 /* test_02_01.html in Resources */,
+				B46F4CCD1E890923004863E5 /* LICENSE in Resources */,
+				B46F4CD51E8909B6004863E5 /* test_03.html in Resources */,
+				B46F4CAB1E88FBDD004863E5 /* YEWebStyleTwo.storyboard in Resources */,
+				B46F4CE01E891329004863E5 /* test_04.html in Resources */,
+				B46F4CB01E88FC39004863E5 /* YEWebStyleFour.storyboard in Resources */,
 				B48506871E88C44B003C3BBD /* Assets.xcassets in Resources */,
+				B46F4CA91E88FBBF004863E5 /* YEWebStyleOne.storyboard in Resources */,
+				B46F4CD91E890C31004863E5 /* test_02_02.html in Resources */,
 				B48506821E88C44A003C3BBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,8 +436,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B48506851E88C44A003C3BBD /* YEWebView_H5_OC_.xcdatamodeld in Sources */,
-				B485067F1E88C44A003C3BBD /* ViewController.m in Sources */,
+				B46F4CCF1E890923004863E5 /* WebViewJavascriptBridge.m in Sources */,
+				B46F4CB31E88FD64004863E5 /* YEWebViewStyleOneVC.m in Sources */,
+				B46F4CBC1E890276004863E5 /* YEWKWebViewStyleVC.m in Sources */,
+				B46F4CDD1E890CA8004863E5 /* YEJS_OCModel.m in Sources */,
+				B46F4CD01E890923004863E5 /* WebViewJavascriptBridge_JS.m in Sources */,
+				B46F4CD21E890923004863E5 /* WKWebViewJavascriptBridge.m in Sources */,
+				B46F4CD11E890923004863E5 /* WebViewJavascriptBridgeBase.m in Sources */,
+				B46F4CB61E890205004863E5 /* YEWebViewStyleTwoVC.m in Sources */,
+				B46F4CB91E89025E004863E5 /* YEWebViewStyleThreeVC.m in Sources */,
 				B485067C1E88C44A003C3BBD /* AppDelegate.m in Sources */,
+				B46F4CCE1E890923004863E5 /* README.md in Sources */,
 				B48506791E88C44A003C3BBD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +483,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		B46F4CA71E88FBBF004863E5 /* YEWebStyleOne.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B46F4CA81E88FBBF004863E5 /* Base */,
+			);
+			name = YEWebStyleOne.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B46F4CAC1E88FC02004863E5 /* YEWebStyleThree.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B46F4CAD1E88FC02004863E5 /* Base */,
+			);
+			name = YEWebStyleThree.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		B48506801E88C44A003C3BBD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -429,6 +615,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "YEWebView(H5_OC)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YEWebView-H5-OC-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,6 +627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "YEWebView(H5_OC)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YEWebView-H5-OC-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -511,6 +699,7 @@
 				B48506A61E88C44B003C3BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48506A71E88C44B003C3BBD /* Build configuration list for PBXNativeTarget "YEWebView(H5_OC)Tests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +708,7 @@
 				B48506A91E88C44B003C3BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48506AA1E88C44B003C3BBD /* Build configuration list for PBXNativeTarget "YEWebView(H5_OC)UITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +717,7 @@
 				B48506AC1E88C44B003C3BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YEWKWebViewStyleVC.h
 //  YEWebView(H5_OC)
 //
 //  Created by yongen on 17/3/27.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YEWKWebViewStyleVC : UIViewController
 
 @end
-
