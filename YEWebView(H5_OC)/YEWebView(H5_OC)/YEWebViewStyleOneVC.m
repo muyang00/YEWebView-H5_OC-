@@ -7,6 +7,11 @@
 //
 
 #import "YEWebViewStyleOneVC.h"
+#import "YEWebViewH5-OC.h"
+#import "YEH5ImageAutoFitVC.h"
+#import "YENativeLoadH5ImageVC.h"
+#import "YEH5ImageAddTapEventVC.h"
+#import "YENewsDetailVC.h"
 
 /*第一种：有很多的app直接使用在webview的代理中通过拦截的方式与native进行交互，通常是通过拦截url scheme判断是否是我们需要拦截处理的url及其所对应的要处理的功能是什么
  */
@@ -41,7 +46,6 @@ static NSString *tableViewCell = @"cell";
     self.navigationItem.title = @"UIWebView交互方式一";
     self.view.backgroundColor = [UIColor whiteColor];
     
-    
     [self setupTableView];
     
 }
@@ -54,6 +58,7 @@ static NSString *tableViewCell = @"cell";
     self.tableView.prefetchDataSource = self;
     self.tableView.estimatedRowHeight = 60;
     self.tableView.rowHeight = 60;
+    self.tableView.tableFooterView = [UIView new];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:tableViewCell];
     self.tableView.separatorColor = [UIColor orangeColor];
     [self.view addSubview:self.tableView];
@@ -86,44 +91,38 @@ static NSString *tableViewCell = @"cell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     switch (indexPath.row) {
-    /*    case 0://
+     case 0://
         {
-            UIWebViewController *UIWebVC = [[UIWebViewController alloc]init];
+            YEWebViewH5_OC *UIWebVC = [[YEWebViewH5_OC alloc]init];
             [self.navigationController pushViewController:UIWebVC animated:YES];
             break;
         }
         case 1://
         {
-            WKWebViewController *WKWebVC = [[WKWebViewController alloc]init];
+            YEH5ImageAutoFitVC *WKWebVC = [[YEH5ImageAutoFitVC alloc]init];
             [self.navigationController pushViewController:WKWebVC animated:YES];
             break;
         }
         case 2://
         {
-            ImageWebViewController *ImageWebVC = [[ImageWebViewController alloc]init];
+            YENativeLoadH5ImageVC *ImageWebVC = [[YENativeLoadH5ImageVC alloc]init];
             [self.navigationController pushViewController:ImageWebVC animated:YES];
             break;
         }
         case 3://
         {
-            NativeImageWebViewController *NativeImageWebVC = [[NativeImageWebViewController alloc]init];
+            YEH5ImageAddTapEventVC *NativeImageWebVC = [[YEH5ImageAddTapEventVC alloc]init];
             [self.navigationController pushViewController:NativeImageWebVC animated:YES];
             break;
         }
         case 4://
         {
-            ClickImageWebViewController *ClickImageWebVC = [[ClickImageWebViewController alloc]init];
+            YENewsDetailVC *ClickImageWebVC = [[YENewsDetailVC alloc]init];
             [self.navigationController pushViewController:ClickImageWebVC animated:YES];
             break;
         }
-        case 5://
-        {
-            JavaScriptCoreViewController *JavaScriptCoreVC = [[JavaScriptCoreViewController alloc]init];
-            [self.navigationController pushViewController:JavaScriptCoreVC animated:YES];
-            break;
-        }
         default:
-            break;*/
+            break;
     }
 }
 

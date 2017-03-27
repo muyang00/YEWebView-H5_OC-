@@ -26,6 +26,14 @@
 		B46F4CDA1E890C31004863E5 /* test_02_01.html in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CD81E890C31004863E5 /* test_02_01.html */; };
 		B46F4CDD1E890CA8004863E5 /* YEJS_OCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CDC1E890CA8004863E5 /* YEJS_OCModel.m */; };
 		B46F4CE01E891329004863E5 /* test_04.html in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CDF1E891329004863E5 /* test_04.html */; };
+		B46F4CE41E8917B0004863E5 /* YEWebViewH5-OC.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CE31E8917B0004863E5 /* YEWebViewH5-OC.m */; };
+		B46F4CE71E8917D8004863E5 /* YEH5ImageAutoFitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CE61E8917D8004863E5 /* YEH5ImageAutoFitVC.m */; };
+		B46F4CEA1E891807004863E5 /* YENativeLoadH5ImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CE91E891807004863E5 /* YENativeLoadH5ImageVC.m */; };
+		B46F4CED1E89182D004863E5 /* YEH5ImageAddTapEventVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CEC1E89182D004863E5 /* YEH5ImageAddTapEventVC.m */; };
+		B46F4CF01E891863004863E5 /* YENewsDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F4CEF1E891863004863E5 /* YENewsDetailVC.m */; };
+		B46F4CF31E891AA3004863E5 /* Image.html in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CF11E891AA3004863E5 /* Image.html */; };
+		B46F4CF41E891AA3004863E5 /* First.html in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CF21E891AA3004863E5 /* First.html */; };
+		B46F4CF61E891CCF004863E5 /* NativeImage.html in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CF51E891CCF004863E5 /* NativeImage.html */; };
 		B48506791E88C44A003C3BBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B48506781E88C44A003C3BBD /* main.m */; };
 		B485067C1E88C44A003C3BBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B485067B1E88C44A003C3BBD /* AppDelegate.m */; };
 		B48506821E88C44A003C3BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48506801E88C44A003C3BBD /* Main.storyboard */; };
@@ -82,6 +90,19 @@
 		B46F4CDB1E890CA8004863E5 /* YEJS_OCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YEJS_OCModel.h; sourceTree = "<group>"; };
 		B46F4CDC1E890CA8004863E5 /* YEJS_OCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YEJS_OCModel.m; sourceTree = "<group>"; };
 		B46F4CDF1E891329004863E5 /* test_04.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test_04.html; sourceTree = "<group>"; };
+		B46F4CE21E8917B0004863E5 /* YEWebViewH5-OC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YEWebViewH5-OC.h"; sourceTree = "<group>"; };
+		B46F4CE31E8917B0004863E5 /* YEWebViewH5-OC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YEWebViewH5-OC.m"; sourceTree = "<group>"; };
+		B46F4CE51E8917D8004863E5 /* YEH5ImageAutoFitVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YEH5ImageAutoFitVC.h; sourceTree = "<group>"; };
+		B46F4CE61E8917D8004863E5 /* YEH5ImageAutoFitVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YEH5ImageAutoFitVC.m; sourceTree = "<group>"; };
+		B46F4CE81E891807004863E5 /* YENativeLoadH5ImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YENativeLoadH5ImageVC.h; sourceTree = "<group>"; };
+		B46F4CE91E891807004863E5 /* YENativeLoadH5ImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YENativeLoadH5ImageVC.m; sourceTree = "<group>"; };
+		B46F4CEB1E89182D004863E5 /* YEH5ImageAddTapEventVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YEH5ImageAddTapEventVC.h; sourceTree = "<group>"; };
+		B46F4CEC1E89182D004863E5 /* YEH5ImageAddTapEventVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YEH5ImageAddTapEventVC.m; sourceTree = "<group>"; };
+		B46F4CEE1E891863004863E5 /* YENewsDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YENewsDetailVC.h; sourceTree = "<group>"; };
+		B46F4CEF1E891863004863E5 /* YENewsDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YENewsDetailVC.m; sourceTree = "<group>"; };
+		B46F4CF11E891AA3004863E5 /* Image.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Image.html; sourceTree = "<group>"; };
+		B46F4CF21E891AA3004863E5 /* First.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = First.html; sourceTree = "<group>"; };
+		B46F4CF51E891CCF004863E5 /* NativeImage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NativeImage.html; sourceTree = "<group>"; };
 		B48506741E88C44A003C3BBD /* YEWebView(H5_OC).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YEWebView(H5_OC).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48506781E88C44A003C3BBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B485067A1E88C44A003C3BBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -155,6 +176,16 @@
 				B46F4CA71E88FBBF004863E5 /* YEWebStyleOne.storyboard */,
 				B46F4CB11E88FD64004863E5 /* YEWebViewStyleOneVC.h */,
 				B46F4CB21E88FD64004863E5 /* YEWebViewStyleOneVC.m */,
+				B46F4CE21E8917B0004863E5 /* YEWebViewH5-OC.h */,
+				B46F4CE31E8917B0004863E5 /* YEWebViewH5-OC.m */,
+				B46F4CE51E8917D8004863E5 /* YEH5ImageAutoFitVC.h */,
+				B46F4CE61E8917D8004863E5 /* YEH5ImageAutoFitVC.m */,
+				B46F4CE81E891807004863E5 /* YENativeLoadH5ImageVC.h */,
+				B46F4CE91E891807004863E5 /* YENativeLoadH5ImageVC.m */,
+				B46F4CEB1E89182D004863E5 /* YEH5ImageAddTapEventVC.h */,
+				B46F4CEC1E89182D004863E5 /* YEH5ImageAddTapEventVC.m */,
+				B46F4CEE1E891863004863E5 /* YENewsDetailVC.h */,
+				B46F4CEF1E891863004863E5 /* YENewsDetailVC.m */,
 			);
 			path = "UIWebView方式一";
 			sourceTree = "<group>";
@@ -223,6 +254,9 @@
 		B46F4CE11E89135D004863E5 /* Resource_01 */ = {
 			isa = PBXGroup;
 			children = (
+				B46F4CF51E891CCF004863E5 /* NativeImage.html */,
+				B46F4CF11E891AA3004863E5 /* Image.html */,
+				B46F4CF21E891AA3004863E5 /* First.html */,
 			);
 			path = Resource_01;
 			sourceTree = "<group>";
@@ -400,17 +434,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				B46F4CAE1E88FC02004863E5 /* YEWebStyleThree.storyboard in Resources */,
+				B46F4CF41E891AA3004863E5 /* First.html in Resources */,
 				B485068A1E88C44B003C3BBD /* LaunchScreen.storyboard in Resources */,
 				B46F4CDA1E890C31004863E5 /* test_02_01.html in Resources */,
 				B46F4CCD1E890923004863E5 /* LICENSE in Resources */,
 				B46F4CD51E8909B6004863E5 /* test_03.html in Resources */,
 				B46F4CAB1E88FBDD004863E5 /* YEWebStyleTwo.storyboard in Resources */,
+				B46F4CF31E891AA3004863E5 /* Image.html in Resources */,
 				B46F4CE01E891329004863E5 /* test_04.html in Resources */,
 				B46F4CB01E88FC39004863E5 /* YEWebStyleFour.storyboard in Resources */,
 				B48506871E88C44B003C3BBD /* Assets.xcassets in Resources */,
 				B46F4CA91E88FBBF004863E5 /* YEWebStyleOne.storyboard in Resources */,
 				B46F4CD91E890C31004863E5 /* test_02_02.html in Resources */,
 				B48506821E88C44A003C3BBD /* Main.storyboard in Resources */,
+				B46F4CF61E891CCF004863E5 /* NativeImage.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,18 +472,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46F4CEA1E891807004863E5 /* YENativeLoadH5ImageVC.m in Sources */,
 				B48506851E88C44A003C3BBD /* YEWebView_H5_OC_.xcdatamodeld in Sources */,
 				B46F4CCF1E890923004863E5 /* WebViewJavascriptBridge.m in Sources */,
 				B46F4CB31E88FD64004863E5 /* YEWebViewStyleOneVC.m in Sources */,
 				B46F4CBC1E890276004863E5 /* YEWKWebViewStyleVC.m in Sources */,
+				B46F4CE41E8917B0004863E5 /* YEWebViewH5-OC.m in Sources */,
 				B46F4CDD1E890CA8004863E5 /* YEJS_OCModel.m in Sources */,
 				B46F4CD01E890923004863E5 /* WebViewJavascriptBridge_JS.m in Sources */,
 				B46F4CD21E890923004863E5 /* WKWebViewJavascriptBridge.m in Sources */,
+				B46F4CE71E8917D8004863E5 /* YEH5ImageAutoFitVC.m in Sources */,
+				B46F4CF01E891863004863E5 /* YENewsDetailVC.m in Sources */,
 				B46F4CD11E890923004863E5 /* WebViewJavascriptBridgeBase.m in Sources */,
 				B46F4CB61E890205004863E5 /* YEWebViewStyleTwoVC.m in Sources */,
 				B46F4CB91E89025E004863E5 /* YEWebViewStyleThreeVC.m in Sources */,
 				B485067C1E88C44A003C3BBD /* AppDelegate.m in Sources */,
 				B46F4CCE1E890923004863E5 /* README.md in Sources */,
+				B46F4CED1E89182D004863E5 /* YEH5ImageAddTapEventVC.m in Sources */,
 				B48506791E88C44A003C3BBD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
