@@ -21,8 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.navigationItem.title = @" iOS 8 之后WKWebView交互方式";
-    
+    self.navigationItem.title = @" iOS8 之后WKWebView交互方式";
+
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self setupWKWebView];
