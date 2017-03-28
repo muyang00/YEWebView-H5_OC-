@@ -47,7 +47,6 @@ static NSString *tableViewCell = @"cell";
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self setupTableView];
-    
 }
 
 - (void)setupTableView{
