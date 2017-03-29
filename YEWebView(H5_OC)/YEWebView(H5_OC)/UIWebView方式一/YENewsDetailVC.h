@@ -10,4 +10,6 @@
 
 @interface YENewsDetailVC : UIViewController
 
+@property (nonatomic, copy) NSString *passTitle;
+
 @end

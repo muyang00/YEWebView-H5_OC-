@@ -99,26 +99,27 @@ static NSString *tableViewCell = @"cell";
         }
         case 1://
         {
-            YEH5ImageAutoFitVC *WKWebVC = [[YEH5ImageAutoFitVC alloc]init];
-            [self.navigationController pushViewController:WKWebVC animated:YES];
+            YEH5ImageAutoFitVC *UIWebVC = [[YEH5ImageAutoFitVC alloc]init];
+            [self.navigationController pushViewController:UIWebVC animated:YES];
             break;
         }
         case 2://
         {
-            YENativeLoadH5ImageVC *ImageWebVC = [[YENativeLoadH5ImageVC alloc]init];
-            [self.navigationController pushViewController:ImageWebVC animated:YES];
+            YENativeLoadH5ImageVC *UIWebVC = [[YENativeLoadH5ImageVC alloc]init];
+            [self.navigationController pushViewController:UIWebVC animated:YES];
             break;
         }
         case 3://
         {
-            YEH5ImageAddTapEventVC *NativeImageWebVC = [[YEH5ImageAddTapEventVC alloc]init];
-            [self.navigationController pushViewController:NativeImageWebVC animated:YES];
+            YEH5ImageAddTapEventVC *UIWebVC = [[YEH5ImageAddTapEventVC alloc]init];
+            [self.navigationController pushViewController:UIWebVC animated:YES];
             break;
         }
         case 4://
         {
-            YENewsDetailVC *ClickImageWebVC = [[YENewsDetailVC alloc]init];
-            [self.navigationController pushViewController:ClickImageWebVC animated:YES];
+            YENewsDetailVC *UIWebVC = [[YENewsDetailVC alloc]init];
+            UIWebVC.passTitle = self.datasource[indexPath.row];
+            [self.navigationController pushViewController:UIWebVC animated:YES];
             break;
         }
         default:

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B42372E91E8BB3F100376772 /* News.css in Resources */ = {isa = PBXBuildFile; fileRef = B42372E81E8BB3F100376772 /* News.css */; };
+		B42372EB1E8BB3FD00376772 /* CellWeb.html in Resources */ = {isa = PBXBuildFile; fileRef = B42372EA1E8BB3FD00376772 /* CellWeb.html */; };
+		B42372ED1E8BB46600376772 /* YENewsDetailVideo.html in Resources */ = {isa = PBXBuildFile; fileRef = B42372EC1E8BB46600376772 /* YENewsDetailVideo.html */; };
 		B46F4CA91E88FBBF004863E5 /* YEWebStyleOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CA71E88FBBF004863E5 /* YEWebStyleOne.storyboard */; };
 		B46F4CAB1E88FBDD004863E5 /* YEWebStyleTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CAA1E88FBDD004863E5 /* YEWebStyleTwo.storyboard */; };
 		B46F4CAE1E88FC02004863E5 /* YEWebStyleThree.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CAC1E88FC02004863E5 /* YEWebStyleThree.storyboard */; };
@@ -62,6 +65,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B42372E81E8BB3F100376772 /* News.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = News.css; sourceTree = "<group>"; };
+		B42372EA1E8BB3FD00376772 /* CellWeb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CellWeb.html; sourceTree = "<group>"; };
+		B42372EC1E8BB46600376772 /* YENewsDetailVideo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = YENewsDetailVideo.html; sourceTree = "<group>"; };
 		B46F4CA81E88FBBF004863E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/YEWebStyleOne.storyboard; sourceTree = "<group>"; };
 		B46F4CAA1E88FBDD004863E5 /* YEWebStyleTwo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = YEWebStyleTwo.storyboard; path = ../YEWebStyleTwo.storyboard; sourceTree = "<group>"; };
 		B46F4CAD1E88FC02004863E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/YEWebStyleThree.storyboard; sourceTree = "<group>"; };
@@ -254,6 +260,9 @@
 		B46F4CE11E89135D004863E5 /* Resource_01 */ = {
 			isa = PBXGroup;
 			children = (
+				B42372E81E8BB3F100376772 /* News.css */,
+				B42372EC1E8BB46600376772 /* YENewsDetailVideo.html */,
+				B42372EA1E8BB3FD00376772 /* CellWeb.html */,
 				B46F4CF51E891CCF004863E5 /* NativeImage.html */,
 				B46F4CF11E891AA3004863E5 /* Image.html */,
 				B46F4CF21E891AA3004863E5 /* First.html */,
@@ -437,14 +446,17 @@
 				B46F4CF41E891AA3004863E5 /* First.html in Resources */,
 				B485068A1E88C44B003C3BBD /* LaunchScreen.storyboard in Resources */,
 				B46F4CDA1E890C31004863E5 /* test_02_01.html in Resources */,
+				B42372ED1E8BB46600376772 /* YENewsDetailVideo.html in Resources */,
 				B46F4CCD1E890923004863E5 /* LICENSE in Resources */,
 				B46F4CD51E8909B6004863E5 /* test_03.html in Resources */,
 				B46F4CAB1E88FBDD004863E5 /* YEWebStyleTwo.storyboard in Resources */,
 				B46F4CF31E891AA3004863E5 /* Image.html in Resources */,
 				B46F4CE01E891329004863E5 /* test_04.html in Resources */,
+				B42372EB1E8BB3FD00376772 /* CellWeb.html in Resources */,
 				B46F4CB01E88FC39004863E5 /* YEWebStyleFour.storyboard in Resources */,
 				B48506871E88C44B003C3BBD /* Assets.xcassets in Resources */,
 				B46F4CA91E88FBBF004863E5 /* YEWebStyleOne.storyboard in Resources */,
+				B42372E91E8BB3F100376772 /* News.css in Resources */,
 				B46F4CD91E890C31004863E5 /* test_02_02.html in Resources */,
 				B48506821E88C44A003C3BBD /* Main.storyboard in Resources */,
 				B46F4CF61E891CCF004863E5 /* NativeImage.html in Resources */,
