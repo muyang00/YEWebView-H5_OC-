@@ -71,8 +71,8 @@
      */
 }
 
-- (NSString *)handleWithHtmlBody:(NSString *)htmlBody
-{
+- (NSString *)handleWithHtmlBody:(NSString *)htmlBody{//此处的htmlBody一定是图片或者视频链接已被替换过
+    
     NSString *html = [htmlBody stringByReplacingOccurrencesOfString:@"\t" withString:@""];
     NSString *cssName = @"News.css";
     NSMutableString *htmlString =[[NSMutableString alloc]initWithString:@"<html>"];
