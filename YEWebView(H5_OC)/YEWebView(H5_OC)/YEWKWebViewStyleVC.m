@@ -29,7 +29,11 @@
 }
 
 - (void)setupWKWebView{
+    WKUserContentController *userContentController = [[WKUserContentController alloc] init];
+    [userContentController addScriptMessageHandler:self name:@"YEAppModel"];
+    
     WKWebViewConfiguration *config = [[WKWebViewConfiguration alloc] init];
+    config.userContentController = userContentController;
     
     // 设置偏好设置
     config.preferences = [[WKPreferences alloc] init];

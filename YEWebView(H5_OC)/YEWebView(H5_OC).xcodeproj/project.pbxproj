@@ -10,6 +10,7 @@
 		B42372E91E8BB3F100376772 /* News.css in Resources */ = {isa = PBXBuildFile; fileRef = B42372E81E8BB3F100376772 /* News.css */; };
 		B42372EB1E8BB3FD00376772 /* CellWeb.html in Resources */ = {isa = PBXBuildFile; fileRef = B42372EA1E8BB3FD00376772 /* CellWeb.html */; };
 		B42372ED1E8BB46600376772 /* YENewsDetailVideo.html in Resources */ = {isa = PBXBuildFile; fileRef = B42372EC1E8BB46600376772 /* YENewsDetailVideo.html */; };
+		B42372EF1E8BBCF800376772 /* YENewsDetailImage.html in Resources */ = {isa = PBXBuildFile; fileRef = B42372EE1E8BBCF800376772 /* YENewsDetailImage.html */; };
 		B46F4CA91E88FBBF004863E5 /* YEWebStyleOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CA71E88FBBF004863E5 /* YEWebStyleOne.storyboard */; };
 		B46F4CAB1E88FBDD004863E5 /* YEWebStyleTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CAA1E88FBDD004863E5 /* YEWebStyleTwo.storyboard */; };
 		B46F4CAE1E88FC02004863E5 /* YEWebStyleThree.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46F4CAC1E88FC02004863E5 /* YEWebStyleThree.storyboard */; };
@@ -68,6 +69,7 @@
 		B42372E81E8BB3F100376772 /* News.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = News.css; sourceTree = "<group>"; };
 		B42372EA1E8BB3FD00376772 /* CellWeb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CellWeb.html; sourceTree = "<group>"; };
 		B42372EC1E8BB46600376772 /* YENewsDetailVideo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = YENewsDetailVideo.html; sourceTree = "<group>"; };
+		B42372EE1E8BBCF800376772 /* YENewsDetailImage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = YENewsDetailImage.html; sourceTree = "<group>"; };
 		B46F4CA81E88FBBF004863E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/YEWebStyleOne.storyboard; sourceTree = "<group>"; };
 		B46F4CAA1E88FBDD004863E5 /* YEWebStyleTwo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = YEWebStyleTwo.storyboard; path = ../YEWebStyleTwo.storyboard; sourceTree = "<group>"; };
 		B46F4CAD1E88FC02004863E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/YEWebStyleThree.storyboard; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 			children = (
 				B42372E81E8BB3F100376772 /* News.css */,
 				B42372EC1E8BB46600376772 /* YENewsDetailVideo.html */,
+				B42372EE1E8BBCF800376772 /* YENewsDetailImage.html */,
 				B42372EA1E8BB3FD00376772 /* CellWeb.html */,
 				B46F4CF51E891CCF004863E5 /* NativeImage.html */,
 				B46F4CF11E891AA3004863E5 /* Image.html */,
@@ -403,6 +406,7 @@
 				TargetAttributes = {
 					B48506731E88C44A003C3BBD = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 4BKR5AQD46;
 						ProvisioningStyle = Automatic;
 					};
 					B485068F1E88C44B003C3BBD = {
@@ -458,6 +462,7 @@
 				B46F4CA91E88FBBF004863E5 /* YEWebStyleOne.storyboard in Resources */,
 				B42372E91E8BB3F100376772 /* News.css in Resources */,
 				B46F4CD91E890C31004863E5 /* test_02_02.html in Resources */,
+				B42372EF1E8BBCF800376772 /* YENewsDetailImage.html in Resources */,
 				B48506821E88C44A003C3BBD /* Main.storyboard in Resources */,
 				B46F4CF61E891CCF004863E5 /* NativeImage.html in Resources */,
 			);
@@ -668,6 +673,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BKR5AQD46;
 				INFOPLIST_FILE = "YEWebView(H5_OC)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -680,6 +686,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BKR5AQD46;
 				INFOPLIST_FILE = "YEWebView(H5_OC)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

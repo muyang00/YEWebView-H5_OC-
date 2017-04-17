@@ -53,7 +53,7 @@
 - (void)loadWebURL{
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"First" ofType:@"html"];
-    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://onk54h4sj.bkt.clouddn.com/YENewsDetailImage.html"]];
+    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://onk54h4sj.bkt.clouddn.com/YENewsDetailVideo.html"]];
     [_webView loadRequest:request];
 }
 
